@@ -1,0 +1,53 @@
+body{
+    background-color: #555;
+}
+#jam {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    line-height: 100px;
+    text-align: center;
+    margin: 100px auto;
+    border: 1px solid aqua;
+    border-radius: 100%;
+    box-shadow: 0 0 5px white;
+    position: relative;
+}
+.jam, .menit{
+    font-size: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 3px solid aqua;
+    width: 30px;
+}
+span{
+    color: aqua;
+    position: absolute;
+}
+span:nth-child(3){
+    height: 30px;
+    width: 20px;
+    line-height: 30px;
+    font-size: 30px;
+    top: 30px;
+    right: 40px;
+    border-bottom: 3px solid aqua;
+}
+.jam{
+    left: 10px;
+    top: 30px;
+}
+.menit{
+    right: 10px;
+    top: 30px;
+}
+.detik{
+    font-size: 10px;
+    position: absolute;
+    top: 65px;
+    right: 44px;
+    height: 10px;
+    width: 10px;
+    line-height: 10px;
+}
